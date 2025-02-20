@@ -1,0 +1,79 @@
+﻿Tawkit.net	
+تطبيق أوقات الصلاة
+Prayer Times Application 
+
+Copyright 	Ismail CHAGDALI
+		www.tawkit.net
+		info@tawkit.net
+
+
+شروط الاستعمال
+------------------------
+
+البرنامج مجاني !
+هذا التطبيق وقف لبيوت الله و لا يجوز بيعه .
+لايجوز حذف أو تغيير إسم البرنامج أو المؤلف . 
+لابد بالاحتفاظ بهذا الإشعار القانوني مع البرنامج .  
+يجوز التعديل على التطبيق  للاستخدام الشخصي فقط , لا لنشره متغيرا .
+
+للتجارة في الأجهزة الحاملة للبرنامج :
+يجوز للتاجر الربح إلى 30% كأقصى حد من قيمة الجهاز و ملحقاته ، مع التركيب و الصيانة !
+مثال :
+صاحب الجهاز عنده جهاز كلفه  100 ريال ،
+ يجوز له بيع جهازه لصاحب المسجد ب 130ريال كأقصى ثمن ،
+بهذه الشروط الثلاثة :
+
+1.  يخبر  صاحب المسجد أن البرنامج مجاني ، وأنه يبيع له الجهاز مع التركيب و الصيانة .
+2.  أن يقوم بصيانة البرنامج و الجهاز مجانيا عند حدوث أي خلل في تشغيل الجهاز :
+( إعادة تشغيل الجهاز، ضبط الساعة , المساعدة على استخدام البرنامج ... )
+3.  عدم تغيير البرنامج ، لا يجوز حذف أو إخفاء إسم البرنامج .
+
+
+التركيب :
+قد يكون مجانيا أو بأجرة.
+لايجوز لصاحب التركيب أن يفرض ثمنا مقابل التركيب ,
+ بل يتفق مع مدير المسجد على مبلغ مناسب . 
+
+
+
+
+
+LICENSE : 
+------------------------
+
+- Tawkit application is 100% freeware and it is not permissible to sell it.
+- It is not permissible to delete or change the name of the application or the author.
+- This legal notice must be kept with the application.
+- It is permissible to modify the application for a personal use only,
+  not allowed to distribute a modified version of it.
+
+It is allowed to sell devices containing Tawkit application, 
+if the profit is 20% maximum of the value of the device and its accessories, including installation and maintenance!
+
+Example :
+The seller has a device that cost him 50$, 
+it is permissible for him to sell his device to a Mosque 
+for 60$ as a maximum price with these THREE CONDITIONS :
+
+1. The seller must tell the Mosque administrator that the program is free, and that he sells the device with installation and maintenance.
+
+2. The seller must maintain the device and application for free when any defect occurs : 
+   Restart the device and application, setting the device clock, helping using the application, etc ...
+
+3. It's not allowed to change the application, and not permissible to delete or hide application name.
+
+
+
+Installation without selling any device :
+It could be for free or paid. 
+The installer shouldn't fix a price for the installation.
+It agrees with the Mosque's manager on an appropriate amount.
+
+
+
+
+
+
+
+
+

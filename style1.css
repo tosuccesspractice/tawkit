@@ -1,0 +1,836 @@
+
+
+@media only screen and (orientation:landscape)
+{
+
+
+#eMainHORIZONTAL {display:block; width:100%; height:100%; background:url(); background-repeat:no-repeat; background-size:100% 100%;}
+#eMainVERTICAL 	 {display:none;  width:100%; height:100%;}
+
+#eMenuHR {position:absolute; z-index:9999333; left:1.0%; top:1.3%; font-size:2.1vw; cursor:pointer;}
+
+
+
+/* --------HR MILADI HIJRI---------------------------------------------------- */
+#HRMILADIHIJRI{position:absolute; font-family:var(--XX_MAJORFONTO); font-size:3.3vw;
+	right:2%; top:4%; height:9%; width:96%; line-height:1em; text-align:center; z-index:997;
+	color:var(--Color_SEKSALATS); direction:var(--XX_LANG_DIR); text-shadow:var(--TXT_SHDW);}
+#HRMILADIHIJRI:lang(AR){font-size:3.6vw;}
+
+
+
+#HRMHJJJ{position:absolute; font-family:var(--XX_MAJORFONTO); font-size:3.3vw;
+	right:2%; top:4%; height:9%; width:80%; line-height:1em; text-align:center; z-index:997;
+	color:var(--Color_SEKSALATS); direction:var(--XX_LANG_DIR); text-shadow:var(--TXT_SHDW);}
+#HRMHJJJ:lang(AR){font-size:3.6vw;}
+
+
+#mhj0{float:left;}
+#mhj1{float:right;}
+
+/* -------HRMsqNAME----------------------------------------------------- */
+#HRMsqNAME{
+	position:absolute; font-family:var(--XX_MAJORFONTO); font-size:4.3vw;
+	left:5%; top:13.7%; height:9%; width:90%; text-align:center; text-shadow:var(--TXT_SHDW);
+	color:var(--Color_SEKSALATS); line-height:1em; opacity:var(--VRBigCNTR);}
+
+
+
+#HrMeteoBOX	{position:absolute; left:1.1%; top:7.5%; width:7.0%; height:10.5%; 
+	visibility:var(--METEO);text-shadow:var(--TXT_SHDW);}
+
+#HRCELSIUS	{position:absolute; left:0%; top:2%; width:50%; text-align:right; font-family :var(--XX_DIGITS);
+	font-size:2.25vw; color:var(--Color_CLOCK); text-shadow:var(--TXT_SHDW);}
+
+#HRmeteoHL	{position:absolute; left:0%; top:61%; width:100%; text-align:center; 
+	font-family :var(--XX_DIGITS); font-size:1.7vw; color:var(--Color_LOWFOCUS);}
+
+#HRMTOikon	{position:absolute; right:0%; top:0%; width:40%; height:auto; text-align:right;}
+#HRMTOikon img{width:100%;}
+
+
+.HReFX2 {font-size:8.5vw;}
+
+
+#CLOKO_MINI_HR	{visibility:visible; position:absolute;
+	left:21%; top:23.4%; width:58%; height:25%; opacity:var(--VRBigCNTR);
+	text-shadow:var(--CLK_SHDW); font-family :var(--XX_CLOKEN); 
+	color:var(--Color_CLOCK); z-index:997;}
+
+#HR_eMiniHOUR	{position:absolute; line-height:1em; font-size:13.5vw; letter-spacing:var(--LETTminiHR); z-index:925; left:0%;  top:0%;  width:100%; text-align:center;}
+#HR_eSECS		{position:absolute; line-height:1em; font-size:5.3vw; text-align:right;  z-index:926; right:5%; top:11%; width:12%; }
+#HR_eAMPM		{position:absolute; line-height:1em; font-size:2.7vw; text-align:right;  z-index:927; right:5%; top:64%; width:12%; text-shadow:var(--TXT_SHDW);}
+	
+#CLOKO_FULL_HR	{position:absolute;	line-height:1em; font-size:13.5vw; 
+	left:20.2%; top:23.4%; z-index:997; letter-spacing:var(--LETTfullHR); text-align:center;
+	width:60%; height:25%; text-shadow:var(--CLK_SHDW); opacity:var(--VRBigCNTR); 
+	font-family :var(--XX_CLOKEN); color:var(--Color_CLOCK);}
+
+
+
+	
+#HReAyatsHDR {position:absolute;font-family:'Amiri'; left:-1%; font-size:3.7vw; 
+	height:14%; width:102%; top:49.0%; line-height:1em; 
+	text-align:center; z-index:300; 
+	color:var(--Color_GOLDEN);
+	text-shadow:var(--TXT_SHDW);
+	}
+
+#HReALERT {position:absolute; right:3%; top:52.0%; font-size:3.7vw;
+	line-height:1em; text-align:center; z-index:300;
+	height:auto; width:94%; font-family:var(--XX_MAJORFONTO); color:var(--Color_CLOCK); visibility:hidden;}
+
+
+
+
+
+
+
+/* HahowaALONGO */
+#HahowaALONGO	{position:absolute; left:0.5%; top:61.5%; width:99%; z-index:888; direction:var(--XX_LANG_DIR); }
+#HahowaALONGO	td {position:relative; text-shadow:var(--TXT_SHDW); }
+
+#alongotablo {width:100%;}
+#alongotablo td{width:16.6%;}
+
+#HReFIXER {font-size:11.5vw;}
+
+
+#LastMinHR {position:absolute; left:0%; top:0%; width:100%; height:100%; 
+	display:flex; justify-content:center; align-items:center; text-align:center;
+	font-family:'FONTO'; font-size:57vw; 
+	background-color:black; color:white; z-index:1000;}
+
+
+/*  
+#HahowaALONGO{margin:0 0 0 1.7%;}
+#HahowaALONGO:lang(AR){margin:0 0 0 -1.5%;}
+*/
+
+.wwwNAME {position:absolute; font-family:var(--XX_MAJORFONTO); font-size:3.5vw;
+	top:7%; left:0%; width:100%; line-height:1.3em; text-align:center; color:var(--Color_LOWFOCUS);}
+.wwwNAME:lang(AR) {font-size:3.9vw; text-align:center; top:6%; line-height:1em;}
+
+
+._h6 .wwwHOUR  {position:absolute; left:0%; top:38%;  letter-spacing:0.055em; width:100%; 
+			line-height:1em; font-size:4.5vw; text-align:center; color:var(--Color_CLOCK);}
+
+._h6 .wwwIQAMA 	{position:absolute; left:0%; top:73.5%; letter-spacing:0.055em; direction:ltr; color:var(--Color_SEKSALATS); 
+			visibility:var(--IQAMAT); width:100%; line-height:1em; font-size:4.5vw; text-align:center;}
+
+
+
+._h5 .wwwHOUR  {position:absolute; left:0%; top:36%;  letter-spacing:0.065em; width:100%; 
+			line-height:1em; font-size:5.4vw; text-align:center; color:var(--Color_CLOCK);}
+
+._h5 .wwwIQAMA 	{position:absolute; left:0%; top:70%; letter-spacing:0.065em; direction:ltr; color:var(--Color_SEKSALATS); 
+			visibility:var(--IQAMAT); width:100%; line-height:1em; font-size:5.4vw; text-align:center;}
+
+
+
+._h6 .Hmtx {position:absolute; left:83%;  top:7%;  width:23%; height:29%; font-size:1.5vw; direction:ltr; visibility:var(--MTOSLWTS);}
+._h6 .Hmtx:lang(AR) {left:6%;}
+
+._h5 .Hmtx {position:absolute; left:79%;  top:7%;  width:23%; height:29%; font-size:1.5vw; direction:ltr; visibility:var(--MTOSLWTS);}
+._h5 .Hmtx:lang(AR) {left:8%;}
+
+
+.jnzts {position:absolute; bottom:0%; left:7%; width:4.9vw; height:4.9vw; text-align:center; border-radius:50%;
+			 background-color:var(--Color_BGTUBE); opacity:.21; visibility:var(--JANAZATS); }
+
+
+
+#jA0,#jA2,#jA3,#jA4,#jA5 {position:absolute; top:62%;  left:0%; width:100%; height:40%; text-align:center; font-family:'Amiri'; line-height:1em; font-size:1.2vw; color:var(--Color_LOWFOCUS); opacity:.6;}
+#jB0,#jB2,#jB3,#jB4,#jB5 {position:absolute; top:23%; right:0%; width:100%; height:40%; text-align:center; font-family:var(--XX_DIGITS); line-height:1em; font-size:2.4vw; color:var(--Color_CLOCK);}
+
+
+
+
+
+#HRdemain  {position:absolute; left:3%; top:3%; line-height:1em; opacity:.4; font-size:1.0vw; color:var(--Color_LOWFOCUS);  }
+#HRdemain:lang(AR) {right:18%;}
+
+
+
+#HRAzanCOMES	{font-family:var(--XX_SCREENAZKAR); position:absolute;
+				right:0%; top:0%; width:100%; height:100%;
+				line-height:1.7em; text-align:center; 
+				background:var(--Color_BGTUBE); color:var(--Color_SEKSALATS); 
+				font-size:8vw; z-index:99991;}
+
+#HRTextAZAN {margin-top:13%;}
+#HHHNowNAMEazan {font-size:185%; color:var(--Color_CLOCK);}
+#HHHTopTIME	{position:absolute; left:40%; top:11%; text-align:center;  width:20%;
+			font-family:var(--XX_DIGITS); letter-spacing:0.075em;
+			line-height:1em; font-size:3.1vw; color:var(--Color_CLOCK);}
+	 
+
+#HRIQAMATIME { position:absolute;
+	left:0%; top:0%; width:100%; height:100%;
+	line-height:1em; text-align:center; font-family:var(--XX_SCREENAZKAR);
+	z-index:99991; font-size:9vw; 
+	background:var(--Color_BGTUBE);
+	color:var(--Color_CLOCK);}
+
+#HRnowIQAMA {margin-top:25%;}
+
+
+#HRDOHACAME{ position:absolute;
+	left:0%; top:0%; width:100%; height:100%;
+	line-height:1em; text-align:center; font-family:var(--XX_SCREENAZKAR);
+	z-index:99991; font-size:9vw; 
+	background:var(--Color_BGTUBE);
+	color:var(--Color_CLOCK);}
+
+#HRnowDOHA {margin-top:25%;}
+
+
+
+#HRAZKAR {position:absolute; left:0%; top:0%; width:100%; height:100%; z-index:999;
+	background-image:url(./azkar/hr.jpg);
+	background-repeat:no-repeat; 
+	background-size:100% 100%;}
+ 
+#Hmes0 {position:absolute; left:1%; top:11.0%; width:98%; height:76%; display:table;}
+#Hmes1 {display:table-cell; vertical-align:middle; text-align:center; direction:rtl;
+	 font-family:var(--XX_SCREENAZKAR); font-size:3.8vw; text-shadow:var(--CLK_SHDW); 
+	line-height:1.90em; color:#EDDDC1;}
+#Hmes1 span{font-size:70%; color:gray;}
+
+
+
+#HR5MIN {position:absolute; left:0%; top:0%; width:100%; height:100%; z-index:999;
+	background-image:url(./azkar/azkar5min-hr.jpg);
+	background-repeat:no-repeat; 
+	background-size:100% 100%;}
+
+
+
+
+#HRSLIDES {position:absolute; left:0%; top:0%; width:100%; height:100%; z-index:999;
+	background-image:url(./slides/hr.jpg);
+	background-repeat:no-repeat; 
+	background-size:100% 100%;}
+ 
+#sHmes0 {position:absolute; left:1%; top:11.0%; width:98%; height:76%; display:table;}
+#sHmes1 {display:table-cell; vertical-align:middle; text-align:center; direction:rtl;
+	 font-family:var(--XX_SCREENAZKAR); font-size:3.8vw; text-shadow:var(--CLK_SHDW); 
+	line-height:1.90em; color:#EDDDC1;}
+#sHmes1 span{font-size:70%; color:gray;}
+
+
+
+
+
+
+
+#HReDecompteBOX {position:absolute; font-family:var(--XX_DIGITS); text-align:center; border:3px solid var(--Color_SEKSALATS); background:var(--Color_BGTUBE);
+	text-shadow:var(--TXT_SHDW); font-size:2.9vw; border-radius:75px; visibility:hidden;
+	z-index:9999337; line-height:1em; right:1.7%; bottom:50%;
+	width:18vw; height:18vw; color:var(--Color_SEKSALATS);}
+
+#HReDecompteTEXT {position:absolute; right:0%; top:38%; width:100%; font-size:5.4vw; letter-spacing:0.065em;
+	text-align:center; text-shadow:var(--TXT_SHDW); color:var(--Color_CLOCK);}
+
+#HRBAQI2IQAMA {position:absolute; right:0%; bottom:18%; width:100%; 
+			font-size:2.1vw; text-shadow:var(--TXT_SHDW);
+			text-align:center; font-family:var(--XX_MAJORFONTO); color:var(--Color_SEKSALATS);}
+#HRBAQI2IQAMA:lang(AR){font-size:1.8vw; bottom:16%;}
+
+
+
+
+/* -----HR_LOGO-------------------------------------------------------  */
+#HR_LOGO {position:absolute; left:4.5%; bottom:50%; width:15vw; height:15vw; 
+	visibility:visible; z-index:500; opacity:var(--VRBigCNTR); }
+
+
+
+.HReBOX1 {position:absolute; right:4.5%; bottom:50%; width:15vw; height:15vw; visibility:visible; opacity:var(--VRBigCNTR); 
+			text-align:center; z-index:500; color:var(--Color_SEKSALATS); line-height:1em; font-family:var(--XX_DIGITS); 
+			background-image:url(./images/img1.png); background-size: 100% auto; text-shadow:var(--TXT_SHDW);}
+
+.HReBOX1 #HReNextPRAYER { font-size:2.6vw; letter-spacing:0.065em; margin-top:18%;}
+
+.HReBOX1 #HReNextPrTEXT {font-family:var(--XX_MAJORFONTO); letter-spacing:0em; margin-top:10.3%;
+					font-size:2.3vw; line-height:1.2em; color:var(--Color_LOWFOCUS);}
+
+.HReBOX1 #HReOPTIOshrq	{visibility:hidden;}
+
+.HReBOX1 #HReoptJomoa	{line-height:1em; text-align:center; display:block; z-index:337; font-size:1.9vw; 
+				letter-spacing:0.040em; color:var(--Color_SEKSALATS); margin-top:11%; }
+
+/* -------------------display:inline-block; width:45%; ----------------------------------------- */
+
+.HRfnx {font-family:var(--XX_MAJORFONTO); font-size:150%;}
+/* ------------------------------------------------------------ */
+
+
+
+.HReBOX2 {position:absolute; right:4.5%; bottom:50%; width:15vw; height:15vw; visibility:visible; opacity:var(--VRBigCNTR); 
+			text-align:center; z-index:500; color:var(--Color_SEKSALATS); line-height:1em; font-family:var(--XX_DIGITS); 
+			background-image:url(./images/img1.png); background-size: 100% auto; text-shadow:var(--TXT_SHDW); }
+
+.HReBOX2 #HReNextPRAYER { font-size:2.6vw; letter-spacing:0.065em; margin-top:13%;}
+
+
+.HReBOX2 #HReNextPrTEXT {font-family:var(--XX_MAJORFONTO); letter-spacing:0em; margin-top:8.5%;
+					font-size:1.8vw; line-height:1.2em; color:var(--Color_LOWFOCUS);}
+
+.HReBOX2 #HReOPTIOshrq	{line-height:1em; text-align:center; display:block; z-index:337; font-size:1.7vw; 
+				letter-spacing:0.040em; color:var(--Color_SEKSALATS); margin-top:9.6%; }
+.HReBOX2 #HReoptJomoa	{line-height:1em; text-align:center; display:block; z-index:337; font-size:1.7vw; 
+				letter-spacing:0.040em; color:var(--Color_SEKSALATS); margin-top:8.3%; }
+
+/* ------------------------------------------------------------ */
+
+
+
+.HReBOX3 {position:absolute; right:4.5%; bottom:50%; width:15vw; height:15vw; visibility:visible; opacity:var(--VRBigCNTR); 
+			text-align:center; z-index:500; color:var(--Color_SEKSALATS); line-height:1em; font-family:var(--XX_DIGITS); 
+			background-image:url(./images/img1.png); background-size: 100% auto; text-shadow:var(--TXT_SHDW);}
+
+.HReBOX3 #HReNextPRAYER { font-size:3.1vw; letter-spacing:0.065em; margin-top:33%;}
+
+.HReBOX3 #HReNextPrTEXT {font-family:var(--XX_MAJORFONTO); letter-spacing:0em; margin-top:13.3%;
+					font-size:2.2vw; line-height:1.2em; color:var(--Color_LOWFOCUS);}
+
+.HReBOX3 #HReOPTIOshrq	{visibility:hidden;}
+.HReBOX3 #HReoptJomoa	{visibility:hidden;}
+
+
+
+/* ------------------------------------------------------------ */
+
+
+#HRJOMOABOX {position:absolute; left:4.5%; bottom:50%; width:15vw; height:15vw; visibility:hidden; opacity:var(--VRBigCNTR); 
+			text-align:center; z-index:500; color:var(--Color_SEKSALATS); line-height:1em; font-family:var(--XX_DIGITS); 
+			background-image:url(./images/img1.png); background-size: 100% auto; text-shadow:var(--TXT_SHDW);}
+
+#HRJOMOABOX #HReJOMOAPRAYER { font-size:3.1vw; letter-spacing:0.065em; margin-top:33%;}
+
+#HRJOMOABOX #HReJOMOATEXT {font-family:var(--XX_MAJORFONTO); letter-spacing:0em; margin-top:10%;
+					font-size:2.9vw; line-height:1.2em; color:var(--Color_LOWFOCUS);}
+
+#HRJOMOABOX #HReJOMOA2wcsv {position:absolute; font-family:var(--XX_DIGITS); font-size:1.8vw; text-align:center;
+	bottom:5%; left:-15%; width:130%; color:var(--Color_LOWFOCUS); }
+
+/* ------------------------------------------------------------ */
+
+.HReBOX4 {position:absolute; right:4.5%; bottom:50%; width:15vw; height:15vw; visibility:visible; opacity:var(--VRBigCNTR); 
+			text-align:center; z-index:500; color:var(--Color_SEKSALATS); line-height:1em; font-family:var(--XX_DIGITS); 
+			background-image:url(./images/img1.png); background-size: 100% auto; text-shadow:var(--TXT_SHDW); }
+
+.HReBOX4 #HReNextPRAYER { font-size:2.6vw; letter-spacing:0.065em; margin-top:18%;}
+.HReBOX4 #HReNextPrTEXT {font-family:var(--XX_MAJORFONTO); letter-spacing:0em; margin-top:8.5%;
+					font-size:1.8vw; line-height:1.2em; color:var(--Color_LOWFOCUS);}
+
+.HReBOX4 #HReOPTIOshrq	{line-height:1em; text-align:center; display:block; z-index:337; font-size:1.6vw; 
+				letter-spacing:0.040em; color:var(--Color_SEKSALATS); margin-top:9.6%; }
+.HReBOX4 #HReoptJomoa	{visibility:hidden;}
+
+/* ------------------------------------------------------------ */
+
+
+
+
+
+#HRSMLKNTR {position:absolute; right:2.1%; bottom:50%; width:18.3vw; height:18.3vw; z-index:500;
+	background:var(--Color_BGTUBE); border-radius:50%; visibility:hidden;}
+
+#sHRnbr {position:absolute;  left:0%; top:20%; width:100%; height:40%; font-size:5.7vw;
+	 color:var(--Color_CLOCK); font-family:var(--XX_DIGITS);
+	display:flex; justify-content:center; align-items:center; text-align:center;}
+
+#sHRtxt {position:absolute; left:0%; bottom:0%; width:100%; height:40%; font-size:2.7vw;
+	color:var(--Color_SEKSALATS); font-family:var(--XX_SCREENAZKAR); text-align:center;}
+
+
+
+
+
+/* -----MSG BTM------------------------------------------------------- */
+#HReMESSAGE0 {position:absolute; z-index:300; left:1%; bottom:0.4%; width:98%; height:9%; display:inline;
+	font-family:var(--XX_SCREENAZKAR); line-height:1.8em; text-align:center; overflow:hidden;
+	font-size:2.55vw; color:var(--Color_CLOCK); text-shadow:var(--TXT_SHDW);}
+
+#HReMESSAGE1 {position:absolute; z-index:300; left:1%; bottom:0.4%; width:98%; height:9%;}
+
+.cMarq {position:absolute; left:0%; bottom:0%; width:100%; height:100%; font-family:var(--XX_SCREENAZKAR); line-height:1.8em;
+	font-size:2.55vw; color:var(--Color_CLOCK); text-shadow:var(--TXT_SHDW);}
+
+
+
+
+
+
+
+#HR_Btm0  {position:absolute;  left:1%; text-align:left; bottom:1.15%; width:18%; line-height:1em; font-size:1.1vw; color:var(--Color_LOWFOCUS);  opacity:0.7; z-index:1300;}
+#HR_Btm1  {position:absolute; right:1%; text-align:right; bottom:1.1%; width:30%; line-height:1em; font-size:1.1vw; color:var(--Color_LOWFOCUS); opacity:0.7; text-transform:uppercase; }
+
+.c2 {color:var(--Color_SEKSALATS); }
+
+
+
+select {width:100%; padding:0.5%; text-align:right; font-size:2.1vw;}
+select optgroup{padding:1.5%;  color:#913E23;}
+select option{padding:1.5%; direction:ltr; text-align:left; color:#252525;}
+
+button {margin-top:5%; width:60%; font-size:2vw; padding:2%;}
+
+
+#eHELPSCREEN 	{position:absolute; height:100%; width:55%; left:0%; top:0%; visibility:hidden; font-size:1.6vw; z-index:99998; background:#151515;}
+.cssSET 		{position:absolute; text-align:center; display:table; left:0%; top:0%; width:100%; height:8%; background-color:#282828;}
+.cssMenuGRP 	{position:absolute; font-family:var(--XX_MAJORFONTO); font-size:2.3vw; line-height:1em; left:0%; top:10%; width:100%; height:90%;  overflow-y:auto; }
+
+
+
+.cssModelSettingsWINDOW	{font-family:var(--XX_MAJORFONTO); position:absolute; width:60%; height:100%; 
+	left:20%; top:0%; visibility:hidden; 
+	font-size:2.3vw; z-index:99993; background:#151515;}
+	
+.cssTitlesHOLDER		{position:absolute; display:table; left:0%; top:0%; width:100%; height:10%;}
+.cssSettingsDATA		{position:absolute; left:0%; top:10%; width:94%; height:84%; padding:3%; line-height:1.75em; overflow-y:auto;}
+
+
+
+.cssNoMOBILE {position:absolute; left:40%; top:50%; width:20%; height:auto; visibility:hidden;}
+.cssCheckBOX {height:3.5vw; width:2.1vw;}
+.cccADJUSTER	{font-size:2vw; height:3vw; width:3.5vw;}
+
+
+.cssMenuICO	{position:absolute; z-index:9999333; left:1%; top:-2%; font-size:2.5vw; padding:3px;}
+
+
+.cssHR_DECOMTO_ALONGO 	{position:absolute; z-index:337; left:76.7%; bottom:41%; width:24%; height:61%;  visibility:hidden;}
+
+.cssHR_NEXTPRAY_DATA_ALONGO	{position:absolute; z-index:337; left:79.7%; bottom:47%; width:18%; height:52%; visibility:visible; color:var(--Color_SEKSALATS);}
+
+
+
+.CSS_AR33 {font-family:var(--XX_MAJORFONTO);    font-size:2.1vw; cursor:pointer;}
+.CSS_AR44 {font-family:var(--XX_MAJORFONTO);    font-size:1.6vw; cursor:pointer;}
+.CSS_EN33 {font-family:var(--XX_MAJORFONTO); font-size:1.5vw; cursor:pointer;}
+
+input[type='radio'] { vertical-align:middle; width:2.1vw; height:2.1vw;}
+
+
+
+/*  letter-spacing:0.15em;  */
+#HRCONTO {position:absolute; left:5%; top:13%; height:auto; width:90%;
+	z-index:999; line-height:1em; text-align:center; letter-spacing:0.0em;
+	font-family:'FONTO'; font-size:23vw; color:var(--Color_CLOCK); text-shadow:var(--BIG_SHDW);}
+
+#sHRCloky {position:absolute; left:30%; top:10%; height:auto; width:40%;font-family:var(--XX_CLOKEN);
+	line-height:1em; text-align:center; font-family:var(--XX_CLOKEN); letter-spacing:0.025em; 
+	font-size:3.7vw; color:var(--Color_SEKSALATS); text-shadow:var(--TXT_SHDW);}
+
+#ELMOBIL2 {position:absolute; left:3%; top:0%; width:20%; z-index:505; height:auto; visibility:hidden;}
+#ELMOBIL2 img{width:100%;}
+}
+
+
+/* visibility:hidden; */
+/*  VERTICAL  */
+/* ================================================================================== */
+@media only screen and (orientation:portrait)
+{
+
+
+#eMainVERTICAL 	 {display: block; width:100%; height:100%; background-repeat:no-repeat; background-size:100% 100%; }
+#eMainHORIZONTAL {display: none;  width:100%; height:100%;}
+
+#eMenuVR	{position:absolute; z-index:9999333; left:0%; top:0%; font-size:5vw; padding:7px; cursor:pointer;}
+
+#VRMsqNAME {position:absolute; left:6%; top:13.7%; width:92%; height:12%; z-index:300;
+	font-family:var(--XX_MAJORFONTO); font-size:7.0vw; text-align:center; opacity:var(--VRBigCNTR); 
+	line-height:1.35em; color:var(--Color_LOWFOCUS); text-shadow:var(--TXT_SHDW); }
+
+.s002 #VRMsqNAME {right:2%; left:unset; top:0.8%; width:40%; height:23%; font-size:6.4vw; text-align:right; opacity:1;}
+
+
+
+/* eVRDATES 003*/
+
+
+
+#yMini  {font-size:80%; color:var(--Color_LOWFOCUS);}
+
+#LastMinVR {position:absolute; left:0%; top:0%; width:100%; height:100%; 
+	display:flex; justify-content:center; align-items:center; text-align:center;
+	font-family:'FONTO'; font-size:88vw; 
+	background-color:black; color:white; z-index:1000;}
+
+/* eVRDATES 002*/
+#eVRDATES	{position:absolute; font-family:var(--XX_MAJORFONTO);
+	font-size:6.1vw; line-height:1.20em; direction:ltr;
+	left:2%; top:11.1%; height:15.3%; width:96%; z-index:997;
+	color:var(--Color_SEKSALATS); text-shadow:var(--TXT_SHDW);}
+	
+#eVRDATES:lang(AR){font-size:6.8vw; direction:rtl;}
+
+#eVRYOUM  {position:absolute; left:0%; top:0%; width:100%; text-align:center; visibility:visible;}
+#eVRHIJRI {position:absolute; left:0%; top:37%; width:100%; text-align:center; color:var(--Color_CLOCK); visibility:visible;}
+#eVRMILADI{position:absolute; left:0%; bottom:0%; width:100%; text-align:center;}
+#eVR003 {visibility:hidden;}
+
+
+.s003 #eVRDATES	{position:absolute; font-family:var(--XX_MAJORFONTO);
+	font-size:6.6vw; line-height:1.20em; direction:ltr;
+	left:7%; top:1.5%; height:11.0%; width:86%; z-index:997;
+	color:var(--Color_CLOCK); text-shadow:var(--TXT_SHDW);}
+	
+.s003 #eVRDATES:lang(AR){font-size:7.3vw; direction:rtl;}
+
+.s003 #eVRYOUM  {visibility:hidden;}
+.s003 #eVRHIJRI {visibility:hidden;}
+.s003 #eVR003 {position:absolute; right:0%; top:0%; width:100%; text-align:center; visibility:visible;}
+.s003 #eVRMILADI{position:absolute; right:0%; bottom:0%; width:100%; text-align:center;color:var(--Color_SEKSALATS);}
+
+
+/* eVRDATES 003
+
+
+.s002 #eVRDATES{top:11.0%;}
+.s003 #eVRDATES{top:01.0%;}
+*/
+
+
+
+
+/* VrMeteoBOX  font-size:95%; */
+
+
+#VrMeteoBOX	{position:absolute; left:3.1%; top:5.9%; width:10%; height:12%;
+	font-size:4.0vw; line-height:1.30em; letter-spacing:0.075em;
+	visibility:var(--METEO);text-shadow:var(--TXT_SHDW); text-align:left;
+	color:var(--Color_SEKSALATS); font-family :var(--XX_DIGITS);}
+
+#VRMTOikon	{position:absolute; left:0%; top:29%; width:70%; height:auto;}
+#VRMTOikon img{width:100%;}
+#VRCELSIUS	{position:absolute; left:0%; top:0%; width:100%; text-align:left;}
+#VRmeteoHL	{position:absolute; left:0%; bottom:0%; width:100%; text-align:left; 
+					color:var(--Color_LOWFOCUS); line-height:1.3em; font-size:80%; opacity:.6; }
+
+
+	
+/*      .s003 #VrMeteoBOX	{left:6.0%;}        */
+
+#CLOKO_MINI_VR	{position:absolute;
+	left:0%; top:28.0%; width:100%; height:12%; 
+	text-shadow:var(--CLK_SHDW); opacity:var(--VRBigCNTR); 
+	font-family :var(--XX_CLOKEN);
+	color:var(--Color_CLOCK); z-index:997;}
+	
+#VR_eMiniHOUR	{position:absolute; line-height:1em; font-size:22.0vw; letter-spacing:var(--LETTminiVR); z-index:925; left:0%;  top:0%;  width:100%; text-align:center;}
+#VR_eSECS		{position:absolute; line-height:1em; font-size:8.7vw; text-align:right;  z-index:926; right:9.0%; top:12%;  width:12%; }
+#VR_eAMPM		{position:absolute; line-height:1em; font-size:5.3vw; text-align:right;  z-index:927; right:9.0%; top:61%; width:12%; text-shadow:var(--TXT_SHDW);}
+
+#CLOKO_FULL_VR	{position:absolute;	line-height:1em; font-size:22.0vw;
+	left:0%; top:28.0%; text-align:center; letter-spacing:var(--LETTfullVR); 
+	width:100%; height:12%; text-shadow:var(--CLK_SHDW); 
+	font-family :var(--XX_CLOKEN);  z-index:997;
+	color:var(--Color_CLOCK); opacity:var(--VRBigCNTR);}
+
+/*  -------------------  */
+
+.s002 #CLOKO_MINI_VR{top:27.0%;}
+.s002 #CLOKO_FULL_VR{top:27.0%;}
+
+.s003 #CLOKO_MINI_VR{top:20.5%;}
+.s003 #CLOKO_FULL_VR{top:20.5%;}
+/*  -------------------  */
+
+
+
+.s002 #VR_LOGO {position:absolute; left:38.0%; top:9.3%; width:24%; display:none;}
+.s003 #VR_LOGO {position:absolute; left:37.0%; bottom:44.5%; width:26%;}
+
+
+
+
+
+
+.s003 #eMIDDLE3	{position:absolute; left:10%; top:43.4%; height:8%; width:80%;
+	font-family:var(--XX_DIGITS); font-size:5.6vw; line-height:1.10em;
+	color:var(--Color_SEKSALATS); text-shadow:var(--TXT_SHDW);}
+
+.s003 #VReNXXX {position:absolute; right:0%; width:33.0%; bottom:0%; text-align:center; letter-spacing:0.075em;}
+.s003 #VReJomoa{position:absolute; left:0%; width:33.0%; bottom:0%; text-align:center; letter-spacing:0.075em;}
+
+.s003 #VReSEP {display:none;}
+
+
+/* ---------------- .s003 #VReJomoa:lang(AR){text-align:right;} */
+ 
+.s002 #eMIDDLE3	{position:absolute; left:3%; top:48.3%; height:8%; width:94%; 
+	font-family:var(--XX_DIGITS); font-size:6.1vw; line-height:1.10em;
+	color:var(--Color_SEKSALATS); text-shadow:var(--TXT_SHDW);}
+
+.s002 #VReJomoa{position:absolute; left:0%;  width:47%; top:0%; text-align:right; letter-spacing:0.075em;}
+.s002 #VReNXXX {position:absolute; right:0%; width:47%; top:0%; text-align:left; letter-spacing:0.075em;}
+
+.s002 #VReSEP {position:absolute; left:50%;  width:3%; height:35%; top:5%; border-left:1px solid var(--VBRDS);}
+
+
+
+#eMIDDLE3 span{font-family:var(--XX_MAJORFONTO); font-size:65%; color:var(--Color_LOWFOCUS); letter-spacing:0; opacity:.8;}
+#eMIDDLE3 span:lang(AR){font-size:75%;}
+
+
+#elps{font-size:70%;}
+
+
+
+#VReMESSAGE0 {position:absolute; z-index:300; left:3%; bottom:3.1%; width:94%; height:5%; padding:.3% 0; 
+	font-family:var(--XX_SCREENAZKAR); line-height:1.4em; text-align:center; overflow:hidden;
+	font-size:5.7vw; color:var(--Color_CLOCK);}
+
+#VReMESSAGE1 {position:absolute; z-index:300; left:3%; bottom:3.1%; width:94%; height:5%;}
+.cMarq {position:absolute; left:0%; top:0%; width:100%; height:100%; font-family:var(--XX_SCREENAZKAR); line-height:1.4em; 
+	font-size:5.7vw; color:var(--Color_CLOCK); text-shadow:var(--TXT_SHDW);}
+	
+
+#VReVER	{position:absolute; font-size:2.5vw; text-align:center; left:0%; bottom:0.7%; width:100%; z-index:1300; letter-spacing: 0.075em; opacity:.5;}
+
+
+
+
+
+#VRSMLKNTR {position:absolute; right:0%; top:47.6%; width:88%; height:8.8%;
+	background:var(--Color_BGTUBE); border-radius:75px 0 0 75px; visibility:hidden;}
+
+#sVRnbr {position:absolute;  left:0%; top:0%; width:55%; height:100%; font-size:12.5vw;
+	 color:var(--Color_CLOCK); font-family:var(--XX_DIGITS);
+	display:flex; justify-content:center; align-items:center; text-align:center;}
+
+#sVRtxt {position:absolute; right:0%; top:0%; width:45%; height:100%; font-size:6.5vw;
+	color:var(--Color_SEKSALATS); font-family:var(--XX_SCREENAZKAR);
+	display:flex; justify-content:center; align-items:center; text-align:center;}
+
+
+.s002 #VRSMLKNTR{top:47.6%; height:8.8%;}
+.s003 #VRSMLKNTR{top:42.4%; height:11.2%;}
+
+
+
+
+#VRAzanCOMES { position:absolute; z-index:400;
+	left:0%; top:0%; width:100%; height:100%;
+	line-height:1.7em; text-align:center; font-family:var(--XX_SCREENAZKAR);
+	z-index:99991; font-size:15vw; 
+	background:var(--Color_BGTUBE); text-shadow:var(--CLK_SHDW);
+	color:var(--Color_SEKSALATS);}
+
+#eeeTextAZAN {margin-top:60%;}
+#eeeNowNAMEazan {font-size:150%; color:var(--Color_CLOCK);}
+#eeeTopTIME {
+			position:absolute; left:30%; top:15%; width:40%; 
+			font-family:var(--XX_DIGITS); letter-spacing:0.085em;
+			line-height:1em; font-size:6vw; color:var(--Color_CLOCK);}
+
+#VRIQAMATIME { position:absolute;
+	left:0%; top:0%; width:100%; height:100%;
+	line-height:1em; text-align:center; font-family:var(--XX_SCREENAZKAR);
+	z-index:99991; font-size:13vw; 
+	background:var(--Color_BGTUBE);
+	color:var(--Color_CLOCK);}
+
+#VRnowIQAMA {margin-top:71%;}
+
+
+#VRDOHACAME { position:absolute;
+	left:0%; top:0%; width:100%; height:100%;
+	line-height:1em; text-align:center; font-family:var(--XX_SCREENAZKAR);
+	z-index:99991; font-size:13vw; 
+	background:var(--Color_BGTUBE);
+	color:var(--Color_CLOCK);}
+
+#VRnowDOHA {margin-top:71%;}
+
+
+
+
+
+
+#VRAZKAR {position:absolute; left:0%; top:0%; width:100%; height:100%; z-index:999;
+	background-image:url(./azkar/vr.jpg);
+	background-repeat:no-repeat; 
+	background-size:100% 100%;}
+	 
+#Vmes0 {position:absolute; left:2%; top:3.0%; width:96%; height:93%; display:table;}
+#Vmes1 {display:table-cell; vertical-align:middle; text-align:center; direction:rtl;
+	 font-family:var(--XX_SCREENAZKAR); font-size:3.8vw; text-shadow:var(--CLK_SHDW);
+	line-height:1.90em; color:#EDDDC1;}
+#Vmes1 span{font-size:70%; color:gray;}
+
+
+#VR5MIN {position:absolute; left:0%; top:0%; width:100%; height:100%; z-index:999;
+	background-image:url(./azkar/azkar5min-vr.jpg);
+	background-repeat:no-repeat; 
+	background-size:100% 100%;}
+
+
+
+
+
+
+
+#VRSLIDES {position:absolute; left:0%; top:0%; width:100%; height:100%; z-index:999;
+	background-image:url(./slides/vr.jpg);
+	background-repeat:no-repeat; 
+	background-size:100% 100%;}
+
+	 
+#sVmes0 {position:absolute; left:2%; top:3.0%; width:96%; height:93%; display:table;}
+#sVmes1 {display:table-cell; vertical-align:middle; text-align:center; direction:rtl;
+	 font-family:var(--XX_SCREENAZKAR); font-size:3.8vw; text-shadow:var(--CLK_SHDW);
+	line-height:1.90em; color:#EDDDC1;}
+#sVmes1 span{font-size:70%; color:gray;}
+
+
+
+#VReAyatsHDR {position:absolute; font-family:'Amiri'; 
+	text-align:center; left:.5%; top:40.0%; 
+	z-index:300; height:8%; width:99%; font-size:6.5vw; 
+	color:var(--Color_GOLDEN);text-shadow:var(--TXT_SHDW);}
+#VReALERT {position:absolute;font-family:var(--XX_SCREENAZKAR); font-size:6.3vw; 
+	visibility:hidden; left:.5%; top:40.0%; width:99%; 
+	text-align:center; color:var(--Color_CLOCK);}
+
+
+/*  -------------------  */
+
+.s002 #VReAyatsHDR{top:40.0%;}
+.s002 #VReALERT{top:40.0%;}
+
+.s003 #VReAyatsHDR{top:var(--j888);}
+.s003 #VReALERT{top:var(--j888);}
+/*  -------------------  */
+
+
+/* var(--Color_BGTUBE) */
+
+#tuberBG {position:absolute; left:7%; top:78.3%; width:86%; height:6.0%; border-radius:75px; background:rgba(0,0,0, 0.15); visibility:hidden;}
+
+#VRePrayersHDR 	{font-family:var(--XX_DIGITS); position:absolute; left:10%; top:56.0%; height:40%; width:80%; text-shadow:var(--TXT_SHDW);}
+.cccROUND		{position:relative; height:14.0%; margin-bottom:var(--RndMrjnB); width:100%; background-color:var(--bgForVRS); opacity:0.5; }
+.cccROUND_ACTIVE{position:relative; height:14.0%; margin-bottom:var(--RndMrjnB); width:100%; background-color:var(--bgForVRS); opacity:1; }
+
+
+
+
+
+#VR_TITLES 	{position:relative; left:0%; top:1.5%; direction:ltr; height:6.5%; width:100%; text-transform:uppercase; 
+	font-size:2.7vw; font-family:var(--XX_MAJORFONTO); line-height:1em; opacity:.7; }
+#VR_TITLES:lang(AR) {font-size:3.7vw; top:0%; direction:rtl;}
+
+
+/*   */
+#ewAZAN {position:absolute; top:0%; right:36.0%; width:30%; text-align:right;}
+#ewSALAT{position:absolute; top:0%; left:4.5%; right:unset; width:30%; text-align:left;}
+#ewIQAMA{position:absolute; top:0%; left:unset; right:0%; width:26.5%; text-align:right; visibility:var(--IQAMAT);}
+#ewSALAT:lang(AR){position:absolute; top:0%; right:4.5%; left:unset; width:30%; text-align:right;}
+#ewIQAMA:lang(AR){position:absolute; top:0%; left:0%; right:unset; width:26.0%; text-align:right;}
+
+
+
+
+.sMDL #ewAZAN {position:absolute; top:0%; left:-5%; right:unset; width:30%; text-align:right;}
+.sMDL #ewSALAT{position:absolute; top:0%; left:45%; right:unset; width:30%; text-align:left;}
+.sMDL #ewIQAMA{position:absolute; top:0%; left:unset; right:0%; width:26.5%; text-align:right; visibility:var(--IQAMAT);}
+.sMDL #ewAZAN:lang(AR) {position:absolute; top:0%; right:2%; width:30%; text-align:right;}
+.sMDL #ewSALAT:lang(AR){position:absolute; top:0%; right:41%; left:unset; width:30%; text-align:right;}
+.sMDL #ewIQAMA:lang(AR){position:absolute; top:0%; left:0%; right:unset; width:26.0%; text-align:right;}
+
+
+
+
+
+
+.sMDL .eeeNAME {position:absolute; left:45%; bottom:19%; width:30%; text-align:left; 
+	line-height:1em; color:var(--Color_CLOCK);font-family:var(--XX_MAJORFONTO); font-size:6.9vw; }
+.sMDL .eeeNAME:lang(AR) {right:41%; left:unset; font-size:var(--VR77); bottom:17.5%; text-align:right;}
+
+.sMDL .eeeHOUR {position:absolute; text-align:right; width:30%; left:-5%; bottom:16%; font-size:var(--VR77); letter-spacing: 0.065em; line-height:1em;  color:var(--Color_SEKSALATS);}
+.sMDL .eeeHOUR:lang(AR) {text-align:right; right:0%; left:unset;}
+
+.sMDL .eeeIQAMA	{position:absolute; right:0%; bottom:16%; text-align:right; width:27%; font-size:var(--VR77); letter-spacing: 0.065em; line-height:1em; visibility:var(--IQAMAT); color:var(--Color_SEKSALATS);}
+.sMDL .eeeIQAMA:lang(AR)	{left:0.3%; right:unset;}
+
+
+.eeeNAME {font-family:var(--XX_MAJORFONTO); position:absolute; left:2%; font-size:6.7vw; bottom:19%; 
+	line-height:1em; color:var(--Color_SEKSALATS);}
+.eeeNAME:lang(AR) {right:2%; left:unset; font-size:var(--VR77); bottom:17.5%; text-align:right;}
+
+.eeeHOUR {position:absolute; text-align:right; width:31%; right:35.2%; bottom:16%; font-size:var(--VR77); letter-spacing: 0.065em; line-height:1em;  color:var(--Color_CLOCK);}
+
+.eeeIQAMA	{position:absolute; right:0%; bottom:16%; text-align:right; width:27%; font-size:var(--VR77); letter-spacing: 0.065em; line-height:1em; visibility:var(--IQAMAT); color:var(--Color_SEKSALATS);}
+.eeeIQAMA:lang(AR)	{left:0.3%; right:unset;}
+
+
+
+
+
+.Vmtx{position:absolute; right:63%; top:15%; width:8%; height:69.0%; 
+	font-size:2.3vw; direction:ltr; visibility:var(--MTOSLWTS);}
+.Vmtx:lang(AR){right:26.0%;}
+
+
+#VRdemain {position:absolute; line-height:1em; right:89%; bottom:3%; font-size:1.9vw; color:var(--Color_LOWFOCUS);text-shadow:none; opacity:.5;}
+#VRdemain:lang(AR) {right:3%; left:unset;}
+
+select {width:100%; padding:0.5%; text-align:right; font-size:2.1vw;}
+select optgroup{padding:1.5%;  color:#913E23;}
+select option{padding:1.1%; direction:ltr; text-align:left; color:#252525;}
+
+
+button {margin-top:5%; width:60%; font-size:3.5vw; padding:2%;}
+
+
+#eHELPSCREEN 	{position:absolute; height:100%; width:100%; left:0px; top:0%; visibility:hidden; font-size:3.0vw; z-index:99998; background:#151515;}
+.cssSET 		{position:absolute; text-align:center; display:table; left:0%; top:0%; width:100%; height:5%; background-color:#282828;}
+.cssMenuGRP 	{position:absolute;font-family:var(--XX_MAJORFONTO); font-size:4.2vw; line-height:1em; left:0%; top:6%; width:100%; height:94%;  overflow-y:auto; }
+
+
+.cssModelSettingsWINDOW	{font-family:var(--XX_MAJORFONTO); font-size:3.6vw; position:absolute; width:100%; height:100%; left:0%; top:0%; visibility:hidden; z-index:99993; background:#151515;}
+.cssTitlesHOLDER		{position:absolute; display:table; left:0%; top:0%; width:100%; height:6%;}
+.cssSettingsDATA		{position:absolute; left:0%; top:6%; width:94%; height:88%; padding:3%; line-height:1.75em; overflow-y:auto;}
+
+
+.cssNoMOBILE {position:absolute; left:30%; top:40%; width:40%; height:auto; visibility:hidden;}
+.cssCheckBOX {height:4vw; width:5vw;}
+.cccADJUSTER	{font-size:3vw; height:5vw; width:6vw;}
+
+
+
+.CSS_AR33 {font-family:var(--XX_MAJORFONTO);    font-size:4.2vw; cursor:pointer;}
+.CSS_AR44 {font-family:var(--XX_MAJORFONTO);    font-size:3.4vw; cursor:pointer;}
+.CSS_EN33 {font-family:var(--XX_MAJORFONTO); font-size:2.8vw; cursor:pointer;}
+
+input[type='radio'] { vertical-align:middle; width:3.5vw; height:3.5vw;}
+
+
+
+
+#VRCONTO {position:absolute; left:0%; height:23%; width:100%;
+	z-index:999; line-height:1em; text-align:center; letter-spacing:0.0em;
+	font-family:'FONTO'; font-size:33vw; color:var(--Color_CLOCK); text-shadow:var(--BIG_SHDW);}
+
+#sVRCloky {position:absolute; right:5%;  height:auto; width:30%;
+	line-height:1em; text-align:right; font-family:var(--XX_CLOKEN); letter-spacing:normal;
+	font-size:7vw; color:var(--Color_SEKSALATS); text-shadow:var(--TXT_SHDW);}
+
+
+/*  -------------------  */
+
+.s002 #VRCONTO{top:24.0%;}
+.s002 #sVRCloky{top:-97.0%; right:unset; left:7%;}
+
+.s003 #VRCONTO{top:18.0%;}
+.s003 #sVRCloky{top:-10.0%; right:35%; left:unset; text-align:center;}
+/*  -------------------  */
+
+}
+
+

@@ -1,0 +1,333 @@
+
+@font-face {
+    font-family: 'Amiri';
+    src: url('font/Amiri-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Andalus';
+    src: url('font/Andalus.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'KSA';
+    src: url('font/KSARegular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'FreeSans';
+    src: url('font/FreeSans.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TTKP';
+    src: url('font/Tt-Kp-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+/*   */
+@font-face {
+    font-family: 'FONTO';
+    src: url('font/Monofonto.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+@font-face {
+    font-family: 'FreeSans';
+    src: url('font/FreeSansBold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Taha';
+    src: url('font/KFGQPCUthmanTaha.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'STC';
+    src: url('font/STC-Regular.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SULTAN';
+    src: url('font/SFSultan-Black.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'FODA';
+    src: url('font/FodaFreeFont.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'MOLHIM';
+    src: url('font/Molhim-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+:root {
+
+  --Color_GOLDEN: 		#F4DB97;
+  --Color_CLOCK: 		gray;
+  --Color_SEKSALATS: 	gray;
+  --Color_LOWFOCUS: 	gray;
+  --Color_BGTUBE: 		gray;
+  --MED_VIS: 			visible;
+  --METEO: 				visible;
+  --IQAMAT: 			visible;
+  --MTOSLWTS: 			visible;
+  --JANAZATS: 			hidden;
+  --VRBigCNTR:			1;
+  
+  --XX_LANG_DIR: 'rtl';
+  
+  --HR_HHHTOP : 6.5%;
+  --HR_NAMTOP : 13%;
+  
+  --TXT_SHDW: 1px 1px 2px rgba(0,0,0, 0.3);
+  --CLK_SHDW: 2px 2px 3px rgba(0,0,0, 0.3);
+  --BIG_SHDW: 2px 2px 7px rgba(0,0,0, 0.3);
+  --XX_MAJORFONTO: 'Amiri';
+  --XX_DIGITS:   'FONTO';
+  --XX_CLOKEN:   'FONTO';
+  --bgForVRS: rgba(255,255, 255, 0.00);
+  
+  --bgForHRS: rgba(255,255, 255, 0.07);
+  
+  --VBRDS: rgba(184,161, 108, 0.5);
+  --CIRKLE: rgba(0,0,0, 0.3);
+  --RndMrjnB: '0.5%';
+  --OPAK: 1;
+  --VR77: '7.7';
+  --LETTminiVR: 0.0em;
+  --LETTfullVR: 0.0em;
+  --LETTminiHR: 0.0em;
+  --LETTfullHR: 0.0em;
+}
+/* url(./images/v.png) */
+html, body{ 
+height			: 100%;
+margin			: 0px; 
+overflow		: hidden;
+font-family		: 'FreeSans';
+font-size		: 9pt; 
+color			: #ACA091;
+background-color: #151515;
+-webkit-scrollbar:display: none;
+scrollbar-width: none;
+-ms-overflow-style: none;
+} 
+
+body {overflow-y : scroll; } 
+body::-webkit-scrollbar {display: none; }
+hr {border: 1px solid #333333;}
+img {border:0;}
+td {padding:0;}
+table {border-spacing:0;}
+
+
+
+.otoHIDN {opacity:var(--OPAK);}
+
+.CSS_X_LANG_DIRECTION {direction:var(--XX_LANG_DIR);}
+
+.SSoff {visibility:hidden;  opacity:0; transition: visibility 0s ease-in 1.9s, opacity 1.9s ease-in;}
+.SSon  {visibility:visible; opacity:1; transition: opacity 1.7s linear;}
+
+.CSS_BlackSCREEN {position:absolute; z-index:996; left:0px; top:0px; height:100%; width:0%; transition: width 4s ease-out; background:black;}
+
+
+
+
+
+
+.Cxvisible {visibility:visible; opacity: 1; transition: opacity 3s linear;}
+.Cxhidden  {visibility:hidden;  opacity: 0; transition: visibility 0s 3s, opacity 3s linear;}
+
+
+.lw	{color:var(--Color_LOWFOCUS);opacity:0.7; font-size:80%;}
+
+.cSalats{font-family:var(--XX_DIGITS);}
+.cDGT{font-family:var(--XX_DIGITS); font-size:80%;}
+
+.cARPM	{font-family:var(--XX_MAJORFONTO); color:var(--Color_LOWFOCUS);}
+.cEnPM	{color:var(--Color_LOWFOCUS);}
+
+
+.cssColorLITE 	{color:#ACA091;}
+.eLiter 		{color:#D2C7AA;}
+.sm90 {font-size:90%;}
+.sm85 {font-size:85%;}
+.sm80 {font-size:80%;}
+
+
+a {color:#D2C7AA; text-decoration:none;}
+.deko {color:var(--Color_CLOCK);}
+
+
+
+
+.centro1 {display:table;}
+.centro2 {display:table-cell; vertical-align:middle; text-align:center;}
+.centro3 {display:table-cell; vertical-align:top;}
+
+.cssDISABLED {pointer-events: none; opacity: 0.4;}
+
+
+
+
+
+
+
+.CSS_VR_THEMER	{width:100%; height:30vw; font-size:3vw; text-align:right; background: url() no-repeat center top; background-size:cover;}
+.CSS_HR_THEMER	{width:100%; height:7vw;  font-size:2vw; text-align:right; background: url() no-repeat center top; background-size:cover;}
+
+
+.cccTBL1	{padding-bottom:2%; border-bottom:2px solid gray;}
+
+.btmline	{border-bottom:1px solid;}
+
+.codePERSO	{color:#D5CCB9; padding:2%; width:93%; overflow-wrap: break-word;}
+
+.w50 {width:50%}
+.w40 {width:40%}
+.w45 {width:45%}
+
+input[type='checkbox'] { vertical-align:middle;}
+label { vertical-align:middle;}
+
+#BtnAudio {position:absolute; bottom:15px; z-index:3000; visibility:hidden;}
+
+.otoDIS {opacity:var(--OPAK);}
+
+.cssWindowCLOSE	{text-align:right; font-size:115%; display:table-cell; vertical-align:middle; background-color:#282828; padding-right:12%;}
+
+.cssWindowTITLE	{width:60%; text-align:left; display:table-cell; vertical-align:middle; color:white; background-color:#282828;}
+
+.cssLocationDATA {width:85%; padding:2% 0 2% 0%; color:white;}
+
+
+#ab5{text-align:center;}
+
+#mn0{direction:ltr; text-align:center;}
+#mn1{letter-spacing:0.05em; padding:23px 0;}
+.devs{line-height:1.2em;}
+
+.hnd{cursor:pointer;}
+.cCLK{color:var(--Color_CLOCK);}
+#XX_MISC_1 {font-size:115%;}
+
+#eMenuGRP {padding-top:3%;text-align:right;}
+#mntopo {position:absolute; right:12%; top:30%; font-size:115%;}
+
+#LangsDIV {position:absolute; left:2.3%; top:0.5%; padding:1.2%; width:auto; height:auto; direction:ltr; 
+			color:#989898; line-height:1em; text-align:left;}
+
+.cssMenuBTN {width:80%; padding:2.05%; cursor:pointer; padding-right:35px; margin-right:3%;}
+.grpfonts 	{font-family:'FreeSans'; font-size:80%; text-align:right; direction:ltr;}
+
+#pJOMOA {font-family:var(--XX_MAJORFONTO); width:100% }
+#pJOMOA option{font-family:var(--XX_MAJORFONTO);line-height:1em;}
+
+
+.minigray, #XX_MISC_1 {font-size:70%; line-height:1.4em; color:gray; padding:5px 0;}
+
+button{font-family:var(--XX_MAJORFONTO); line-height:1em;}
+
+#uaTBL0 {width:100%; font-family:'FreeSans'; font-size:70%; }
+#uaTBL1 {width:100%;}
+#uaTBL1 tr td:nth-child(1) {width:7%;}
+#uaTBL1 tr td:nth-child(2) {width:7%; text-align:center;}
+#uaTBL1 tr td:nth-child(3) {width:15%;}
+#uaTBL1 tr td:nth-child(4) {width:64%;}
+#uaTBL1 tr td:nth-child(5) {width:7%; text-align:right;}
+#uaTBL1 td{vertical-align:top; font-family:'FreeSans'; font-size:60%; padding:2% 0.5%; line-height:1.3em; border-bottom:1px dashed silver;}
+#uaTBL1 tr td:nth-child(4) {font-family:var(--XX_MAJORFONTO); direction:rtl; text-align:right;}
+
+
+
+#uaTBslides {width:100%;}
+#uaTBslides tr td:nth-child(1) {width:10%;}
+#uaTBslides tr td:nth-child(2) {width:80%; text-align:center;}
+#uaTBslides tr td:nth-child(3) {width:10%; text-align:right;}
+#uaTBslides td{vertical-align:top; font-family:'FreeSans'; font-size:85%; padding:2% 0.5%; border-bottom:1px dashed silver;}
+#uaTBslides tr td:nth-child(2) {font-family:var(--XX_MAJORFONTO); line-height:1.9em; direction:rtl; text-align:right;}
+
+
+.eaBtn {margin:1.5% 0; width:auto; font-size:1.9vw; padding:1.5% 7%;}
+.cc15 {height:2.3vw; width:1.9vw;}
+.bnc{letter-spacing:0.085em;}
+
+#pFAJR,#pDOHR,#pASR,#pISHA {width:90%;}
+
+#tablePrayADJ {width:100%;}
+#tablePrayADJ td{width:16%; text-align:center; border-right:1px dashed #454545;} 
+
+#tableIQAMATS {width:100%; border-bottom:1px dashed #454545;}
+#tableIQAMATS td:nth-child(1) {width:30%; text-align:center;}
+#tableIQAMATS td:nth-child(2) {width:10%; text-align:left;}
+#tableIQAMATS td:nth-child(3) {width:10%; text-align:left;}
+#tableIQAMATS td:nth-child(4) {width:10%; text-align:left;}
+#tableIQAMATS td:nth-child(5) {width:40%; text-align:left;}
+
+
+.wt{color:white;}
+#ePS{position:absolute; left:0%; top:7%; width:13%;}
+#LangsDIV{line-height:1.3em;}
+.cntr{text-align:center;}
+
+#odyo{position:absolute; left:33%; top:2%;}
+
+
+.jclc{position:absolute; right:2%; top:0.5%; width:30%; font-family:var(--XX_DIGITS); font-size:170%; 
+	 letter-spacing:0.085em; color:white; text-align:right; text-shadow:var(--TXT_SHDW);}
+
+#ePSvr{position:absolute; left:1.3%; bottom:0.7%; width:4.8%;}
+#ePShr{position:absolute; left:12%; bottom:1.1%; width:2.1%;}
+
+
+#xtFonts {width:100%;}
+#xtFonts td{width:25%; direction:rtl; text-align:right; font-size:75%; vertical-align:top;} 
+
+
+#jZ1,#jZ2 {font-size:75%;}
+
